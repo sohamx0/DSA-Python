@@ -20,3 +20,12 @@ for i in range(n-1):
 
 # Final sorted list
 print(mylist)
+
+
+
+""" HOW IT WORKS ?
+1. The outer loop runs n-1 times, where n is the length of the list.
+2. The inner loop compares adjacent elements and swaps them if they are in the wrong order.
+3. After each pass of the outer loop, the largest unsorted element "bubbles up" to its correct position at the end of the list.
+4. This process is repeated until the entire list is sorted.
+"""

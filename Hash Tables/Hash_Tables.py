@@ -2,7 +2,7 @@
 
 # make a simple list 
 
-my_list = [None, None, None, None, None]
+my_list = [None, None, None, None, None , None, None, None, None, None]
 
 # create a simple hash function 
 
@@ -21,11 +21,10 @@ def add(name):
 
 add('Bob')
 print(my_list)
-add('Bob')
 add('Pete')
 add('Jones')
 add('Lisa')
-add('Siri')
+add('Amy')
 
 # check if it contains a name
 

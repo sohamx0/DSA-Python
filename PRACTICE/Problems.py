@@ -39,6 +39,7 @@ def insert_at_position(head, position, data):
             print("Position out of bounds")
             return head
         current = current.next
+        
     new_node.next = current.next
     current.next = new_node
     return head

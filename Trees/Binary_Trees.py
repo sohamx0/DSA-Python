@@ -28,4 +28,5 @@ nodeB.right = nodeF    # 'F' becomes right child of 'B'
 nodeF.left = nodeG     # 'G' becomes left child of 'F'
 
 # Test: print the data of the left child of 'B' (which is 'E')
-print("root.right.left.data:", root.right.left.data)
+
+print("root.right.left.data:", root.right.left.data) #root which is R -> right which is B -> left which is E
